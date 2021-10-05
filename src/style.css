@@ -11,8 +11,16 @@
 	flex-direction: column;
 	gap: 10px;
 	padding: 40px var(--main-padding-sides);
-	background: turquoise;
-	/* background-image: ('./assets/profile-pic.svg'); */
+}
+
+.header-img {
+	position: absolute;
+	top: -40px;
+	left: -10px;
+	width: 100vw + var(--main-padding-sides) * 2;
+	height: 500px;
+	object-fit: cover;
+	z-index: -1;
 }
 
 .social-img-container {
@@ -247,14 +255,14 @@ line-height: 50px;
 /*  */
 @media (min-width: 768px) {
 	:root {
-		--contentWidth: 768px;
+		--contentWidth: 760px;
 		--main-padding-sides: max(2px, (100vw - var(--contentWidth))/ 2);
 	}
 }
 
 @media (min-width: 992px) {
 	:root {
-		--contentWidth: 992px;
+		--contentWidth: 990px;
 	}
 	.featured-projects-container {
 		flex-wrap: nowrap;
