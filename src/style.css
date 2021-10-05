@@ -17,8 +17,8 @@
 	position: absolute;
 	top: -40px;
 	left: -10px;
-	width: 100vw + var(--main-padding-sides) * 2;
-	height: 500px;
+	width: 100vw;
+	height: 600px;
 	object-fit: cover;
 	z-index: -1;
 }
