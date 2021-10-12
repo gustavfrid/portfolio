@@ -195,6 +195,10 @@
 	color: #ffffff;
 }
 
+.overlay:hover .overlay-heading {
+	color: var(--tag-color);
+}
+
 .image {
 	display: block;
 	width: 100%;
