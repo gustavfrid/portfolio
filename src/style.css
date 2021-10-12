@@ -185,10 +185,11 @@
 .featured-proj-container {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .featured-project {
-  margin: 10px;
+  margin: 0px;
 }
 
 .image-container {
