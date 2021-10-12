@@ -1,5 +1,4 @@
 :root {
-	--
 }
 
 .body {
@@ -353,10 +352,19 @@
 		display: grid;
 		grid-template-columns: 50% 1fr;
 	}
+
+	.image-container {
+		width: 100%;
+		height: 210px;
+		overflow: hidden;
+	}
 }
 
 @media (min-width: 992px) {
 	.container {
 		width: 944px;
+	}
+	.image-container {
+		height: 280px;
 	}
 }
