@@ -103,47 +103,6 @@
   padding: 40px 0;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
-.flex-container-row {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.intro-paragraph {
-  font-family: Montserrat;
-  font-size: 17px;
-  line-height: 29px;
-  display: inline-block;
-  /* padding: 49px 0 43px 0; */
-}
-
-.tech-paragraph {
-  font-family: Montserrat;
-  font-size: 17px;
-  line-height: 29px;
-  text-align: center;
-  display: inline-block;
-}
-
-.featured-proj-container {
-  display: flex;
-  flex-direction: column;
-}
-.featured-project {
-  margin: 10px;
-}
-
-.other-proj-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  /* align-items: center; */
-}
-
 .portfolio-heading-container {
   display: flex;
   justify-content: center;
@@ -155,13 +114,81 @@
   text-align: center;
   text-transform: uppercase;
   padding: 0 3px;
-  /* margin-top: 41px; */
 
   font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+}
+.portfolio-sub-heading {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+.flex-container-row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* INTRO SECTION */
+
+.intro-paragraph {
+  font-family: Montserrat;
+  font-size: 17px;
+  line-height: 29px;
+  display: inline-block;
+  /* padding: 49px 0 43px 0; */
+}
+
+.line {
+  border: 1px solid var(--primary-color);
+  width: 40px;
+  background-color: var(--primary-color);
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+/* TECH SECTION */
+
+.tech-paragraph {
+  font-family: Montserrat;
+  font-size: 17px;
+  line-height: 29px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* FEATURED PROJECTS SECTION */
+
+.featured-proj-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-project {
+  margin: 10px;
 }
 
 .image-container {
@@ -203,6 +230,12 @@
   width: 100%;
 }
 
+.other-proj-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .red-heading {
   text-transform: uppercase;
   font-family: Roboto;
@@ -213,9 +246,11 @@
   color: var(--primary-color);
   margin-bottom: 0;
 }
+
 .inline-heading {
   display: inline;
 }
+
 .project-description {
   font-family: Roboto;
   font-style: normal;
@@ -230,6 +265,7 @@
   gap: 5px;
   margin: 0;
 }
+
 .tag {
   font-family: Roboto;
   font-style: normal;
@@ -242,33 +278,7 @@
   padding: 7px;
 }
 
-.portfolio-sub-heading {
-  text-transform: uppercase;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 25px;
-  text-align: center;
-  color: var(--primary-color);
-  margin-bottom: 20px;
-}
-.line {
-  border: 1px solid var(--primary-color);
-  width: 40px;
-  background-color: var(--primary-color);
-  display: inline-block;
-  margin-bottom: 4px;
-}
-
-.dot {
-  height: 10px;
-  width: 10px;
-  background-color: var(--primary-color);
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: -10px;
-}
+/* MY THOUGHTS SECTION */
 
 .blog-date {
   font-family: 'Roboto', sans-serif;
@@ -285,8 +295,9 @@
   margin-block-start: 0;
   margin-block-end: 0.2em;
 }
-.project-description {
-}
+
+/* SKILLS SECTION */
+
 .read-more-link {
   font-weight: 700;
   color: var(--primary-color);
@@ -309,7 +320,7 @@
   line-height: 29px;
 }
 
-/* end new code ----------------- */
+/* FOR MORE SECTION */
 
 .social-container-for-more {
   display: flex;
@@ -317,6 +328,8 @@
   height: 60px;
   gap: 40px;
 }
+
+/* FOOTER */
 
 .footer {
   background: #072bce;
@@ -337,6 +350,8 @@
   line-height: 25px;
   margin: 0;
 }
+
+/* FOR MOBILE */
 
 @media (min-width: 576px) {
   .container {
@@ -387,6 +402,8 @@
   }
 }
 
+/* FOR TABLET */
+
 @media (min-width: 768px) {
   .container {
     width: 720px;
@@ -418,6 +435,8 @@
     margin-top: -30px;
   }
 }
+
+/* FOR DESKTOP */
 
 @media (min-width: 992px) {
   .container {
