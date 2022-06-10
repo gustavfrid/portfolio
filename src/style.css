@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fa382f;
+  --primary-color: rgb(254, 90, 89);
   --tag-color: #fddfe7;
   --tag-text-color: #000000;
 }
@@ -10,7 +10,7 @@
 
 /* Styling the header */
 .header {
-  background-image: url('/assets/images/header-image.png');
+  background-image: url('/assets/images/hero_1.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -43,7 +43,6 @@
 }
 .social-img-icon {
   position: absolute;
-
   height: 50%;
 }
 .social-icon-border {
@@ -152,8 +151,8 @@
 
 .intro-paragraph {
   font-family: Montserrat;
-  font-size: 17px;
-  line-height: 29px;
+  font-size: 24px;
+  line-height: 32px;
   display: inline-block;
   /* padding: 49px 0 43px 0; */
 }
